@@ -71,12 +71,13 @@ body {
 } 
 /* the first row is next to the photo and columng ordering (name ,blog , location) */
 .profile_card .fieldset .detail_container .text_detail {
-
-    padding-left: 40px;
+    
+    padding-left: 50px;
+    padding-right:10px ;
     position: relative;
     display: flex;
     flex-direction: column;
-
+    text-align: center
 }
 
 /* the second row is below   */
