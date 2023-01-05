@@ -12,7 +12,7 @@ body {
 */
 
 .container {
-    width: 40%;
+    width: 30%;
     min-height: 60%;
     position: absolute;
     top: 50%;
@@ -34,37 +34,61 @@ body {
     justify-content: space-around;
 }
 
+/* right side  */
+
 .form_card_content .fieldset {
+    position: relative;
     margin-right: 40px;
     margin-left: 5px;
-    position: relative;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 65px;
     padding-bottom: 40px;
     border-radius: 40px;
 }
-.fieldset {
-    border-radius: 20px;
-    position: relative;
-}
 
+/* right side  */
 .profile_card .fieldset {
-    /* border-right: 30px; */
 
-    padding-left: 180px;
-    padding-right: 150px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
     border-radius: 40px;
-    
+
 }
 
-/* .form_card {
-    position: relative;
-    border-radius:10px ;
+/* set profile text items in 2 row  biside the photo  */
 
-} */
+.profile_card .fieldset .detail_container {
+
+    display: flex;
+    flex-direction: row;
+
+
+} 
+/* the first row is next to the photo and columng ordering (name ,blog , location) */
+.profile_card .fieldset .detail_container .text_detail {
+
+    padding-left: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* the second row is below   */
+.profile_card .fieldset .bio_container {
+
+    padding-top: 40px ;
+} 
+
+/*
+    All Buttons unic style
+*/
+
 .button {
     width: 90px;
     height: 25px;
