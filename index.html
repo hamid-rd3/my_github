@@ -11,30 +11,32 @@
 </head>
 <body>
     <div class="container">
-        <!-- page right part -->
-        <div class="form_card card">
-            <form class="form_card_content">
-                <fieldset class="fieldset">
-                <input type="text" id="github-username" maxlength="255" required>
-                <br><br><br>
-                    <button class="submit button">submit</button><br>
-                </fieldset>
-            </form>
+
+    <!-- page left part -->
+    <div class="profile_card">
+            <fieldset class="fieldset">
+                <div class="user_name"></div>
+                <div class="user_blog"></div>
+                <div class="user_location"></div>
+                <div class="user_bio"></div>
+                <div class="user_photo"></div>
+            </fieldset>
+    </div>
+
+    <!-- page right part -->
+    <div class="form_card">
+        <form class="form_card_content">
+            <fieldset class="fieldset">
+            <input type="text" id="github-username" maxlength="255" size="9" required>
+            <br><br><br>
+                <button class="submit button">submit</button><br>
+            </fieldset>
+        </form>
         <div class="action_result"></div>
         </div>
-    
-    <!-- page left part -->
-    <div class="result_card card">
-        <div class="profile_card">
-            <fieldset class="fieldset">
-                <div class="user-name"></div>
-                <div class="user-blog"></div>
-                <div class="user-loacation"></div>
-                <div class="user-bio"></div>
-                <div class="user-photo"></div>
-            </fieldset>
-        </div>
+
     </div>
     <script src="./js/index.js"></script>
+
 </body>
 </html>
